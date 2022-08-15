@@ -20,7 +20,7 @@ function RenderResult() {
 
   return(
       <div>
-          <h1>React App</h1>
+          <h1>React Application</h1>
           <p>{apiResponse}</p>
       </div>
   );
