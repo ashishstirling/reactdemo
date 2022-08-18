@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 
-const restEndpoint = "http://demoapplication-env.eba-5xg7emvq.us-east-1.elasticbeanstalk.com/hello";
+const restEndpoint = "http://demoapplication-env.eba-qb32vxr6.us-east-1.elasticbeanstalk.com/hello";
 
 const callRestApi = async () => {
     const response = await fetch(restEndpoint);
@@ -20,7 +20,7 @@ function RenderResult() {
 
   return(
       <div>
-          <h1>Welcome to React Application</h1>
+          <h1>Welcome to React App</h1>
           <p>{apiResponse}</p>
       </div>
   );
