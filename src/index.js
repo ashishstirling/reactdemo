@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 
-const restEndpoint = "http://demoapplication-env.eba-qb32vxr6.us-east-1.elasticbeanstalk.com/hello";
+const restEndpoint = "http://localhost:5000/hello";
 
 const callRestApi = async () => {
     const response = await fetch(restEndpoint);
